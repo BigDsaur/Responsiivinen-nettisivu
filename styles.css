@@ -9,20 +9,39 @@ body{background-color:rgb(80, 80, 80);}
     color: rgb(0, 0, 0);
   }
 
-  ul {
+  ul.b { 
+    list-style-type: disc;
+    margin-left: 200px ;
+    margin-right: 200px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+  ul.a { 
+    list-style-type: circle;
+    margin-left: 200px ;
+    margin-right: 200px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+  ul.a2 { 
+    list-style-type: circle;
+    margin-left: 0px ;
+    margin-right: 200px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+  ul.valikko {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(205, 205, 100);
-  }
-  
-  li {
-    float: left;
-    font-size: 40px;
+    background-color: rgb(100, 180, 255);
   }
   
   li a {
+    float: left;
+    font-size: 40px;
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -31,7 +50,7 @@ body{background-color:rgb(80, 80, 80);}
   }
   
   li a:hover {
-    background-color: #ffe342;
+    background-color: #42ffd6;
   }
 
   h1  {
