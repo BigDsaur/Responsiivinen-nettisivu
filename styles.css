@@ -78,7 +78,7 @@ body{background-color:rgb(80, 80, 80);}
     margin-left: 200px ;
     margin-right: 200px;
     display: grid;
-    grid-template-columns: 15% auto;
+    grid-template-columns: 20% auto;
     background-color: rgb(80, 80, 80);
     padding-bottom: 10px;
   }
@@ -98,3 +98,106 @@ body{background-color:rgb(80, 80, 80);}
     text-align: center;
   }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  div.valikko {
+    margin-left: 10px ;
+    margin-right: 10px
+  }
+
+  ul.b { 
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  ul.a { 
+    list-style-type: circle;
+    padding-left: 25px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  ul.a2 { 
+    list-style-type: circle;
+    padding-left: 15px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  ul.valikko {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(100, 180, 255);
+  }
+  
+  li a {
+    float: left;
+    font-size: 15px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+  }
+
+  h1 {
+    text-decoration: underline;
+    margin-left: 10px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+  h2  {
+    text-decoration: underline;
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(255, 255, 254)
+  }
+
+  p   {font-size: 18px;
+    line-height: 0.9;
+    margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+    }
+
+  .grid-container {
+    margin-left: 10px ;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 35% auto;
+    background-color: rgb(80, 80, 80);
+    padding-bottom: 5px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+
+
+
+
+}
